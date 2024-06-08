@@ -728,6 +728,26 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "missingno"
+version = "0.5.2"
+description = "Missing data visualization module for Python."
+optional = false
+python-versions = "*"
+files = [
+    {file = "missingno-0.5.2-py3-none-any.whl", hash = "sha256:55782621ce09ba0f0a1d08e5bd6d6fe1946469fb03951fadf7d209911ca5b072"},
+    {file = "missingno-0.5.2.tar.gz", hash = "sha256:4a4baa9ca9f9e4e0d9402455df26b656632e94b99e87fa64c0cdbbbc722837ac"},
+]
+
+[package.dependencies]
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+seaborn = "*"
+
+[package.extras]
+tests = ["pytest", "pytest-mpl"]
+
+[[package]]
 name = "nest-asyncio"
 version = "1.6.0"
 description = "Patch asyncio to allow nested event loops"
@@ -1501,4 +1521,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "3c72be55368c76621e17369312da812cdce570b770c1ce99898765125bfee11a"
+content-hash = "2ac2f9d55e8c1a89f6b461c4872a1d62d048da8b409039188d821cabe6e73ae5"
