@@ -1,4 +1,4 @@
-# Trabajo práctico integrador: Análisis de datos
+# Trabajo práctico integrador: Aprendizaje de Maquina 1
 Integrantes:
 - Julio Agustín Donadello (a1505)
 - Diego Braga (a1522)
@@ -41,10 +41,11 @@ Un dato importante a la hora de realizar el análisis exploratorio, la limpieza 
 
 ## Distribución de los archivos
 ```
-├── AdDAI_tpi_enunciado.pdf
 ├── README.md
-├── TP_Final_AD_WeatherAustralia.ipynb -> trabajo completo
+├── TP_Final_Limpieza_WeatherAustralia.ipynb -> análisis exploratorio y limpieza de datos
+├── TP_Final_Entrenamiento_WeatherAustralia.ipynb -> entrenamiento y evaluación de modelos
 ├── dataset
-│   └── weatherAUS.csv -> dataset
+│   ├── weatherAUS.csv -> dataset
+|   └── weather_corregido.csv -> dataset con limpieza de datos realizada
 └── pyproject.toml
 ```
